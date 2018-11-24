@@ -52,5 +52,6 @@ int				main(int argc, char const **argv)
 	size = extrapolate(size);
 	result = algorithm(&size, head);
 	print_result(size, result);
+	delmatrix(result, size);
 	return (0);
 }
