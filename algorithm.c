@@ -13,7 +13,7 @@
 #include "fillit.h"
 
 /*
-** main algorithm, that implement idea of backtraking
+** main algorithm, that are implementing an idea of backtraking
 ** magic - recursive func, that go deeper into recursion
 ** if we can paste tetrimino in current position, and go ahead if no
 ** if it is no solution, the algorithm returns to previos
